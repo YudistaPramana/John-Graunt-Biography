@@ -1,0 +1,78 @@
+body{
+    background-color: #F7F7F7;
+    margin : 0 ;
+    padding: 0;
+
+}
+@media (min-width: 451px) {
+    
+.page1 {
+    margin: 2%;
+    width: 95%;
+    height: 1000px;
+    background: #e6ba92;
+    border-radius: 25px;
+    box-shadow: 10px 10px 8px #C0C0C0 , -10px -10px 8px #FFFFFF;
+}
+
+.JohnGraunt {
+    width: 40%;
+    position: relative;
+    margin-top: 5%;
+    float: left;
+}
+
+.h1 {
+    margin: 3% 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    line-height: 65px;
+    text-align: center;
+}
+.p1 , .p2 , .p3 , .p4{
+        position: relative;
+        width: 50%;
+        margin : 2% 5% 0% 0%;
+        text-align: justify;
+        text-indent: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        float: right;
+}
+}
+
+@media (max-width: 450px) {
+    .page1 {
+        margin: 3%;
+        width: 93%;
+        height: 100%;
+        background: #e6ba92;
+        border-radius: 25px;
+        box-shadow: 10px 10px 8px #C0C0C0 , -10px -10px 8px #FFFFFF;
+    }
+    
+    .JohnGraunt {
+        width: 95%;
+        position: relative;
+        margin-top: 5%;
+    }
+    
+    .h1 {
+        position: relative;
+        margin: 3% 0 0 0;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 26px;
+        text-align: center;
+    }
+    .p1 , .p2 , .p3 , .p4 {
+            position: relative;
+            width: 95%;
+            margin : 5% 5% 0% 0%;
+            text-align: justify;
+            text-indent: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            line-height: 25px;
+    }
+}
